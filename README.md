@@ -1,4 +1,4 @@
-# Corret App Site
+# App Site
 
 After clone the project, you should:
 
