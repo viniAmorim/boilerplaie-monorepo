@@ -7,7 +7,6 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@react-theming/storybook-addon',
-    'storybook-addon-designs',
   ],
   babel: async (options) => {
     const babelConfig = babel.loadPartialConfig({ configFile: require.resolve('../babel.config.js'),  })

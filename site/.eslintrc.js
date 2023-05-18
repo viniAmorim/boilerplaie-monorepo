@@ -56,7 +56,6 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/extensions': [
       'error',
@@ -68,10 +67,11 @@ module.exports = {
     ],
     'import/no-webpack-loader-syntax': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/jsx-props-no-spreading': 'off',
     'no-use-before-define': 'off',
-    'react-hooks/exhaustive-deps': 'off'
+    'react/require-default-props': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
